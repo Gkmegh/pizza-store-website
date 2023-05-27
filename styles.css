@@ -1,0 +1,147 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+    margin:0;
+    padding:0;
+}
+.social-logo {
+    width: 18px;
+    height: 18px;
+    /* background-color: white;   */
+    margin-right: 20px;
+    text-decoration: none;
+}
+header {
+    background-color:black;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    display: block;
+    opacity: 1;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.Restaurant-Name h4{
+    font-weight: bold;
+    text-decoration: none;
+    color:tomato;
+    margin-left: 20px;
+    font-size: large;
+}
+.Nav-Items a{
+    font-size: 18px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .section {
+    padding: 410px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .section-home {
+    background-image: url("./logo/pizza-1317699_1280.jpg");
+    background-color: #f2f2f2;
+    /* opacity: 0.85; */
+  }
+  
+  .section-about-us {
+    background-image: url("./logo/side-view-pizza-with-slices-bell-pepper-pizza-slices-flour-board-cookware.jpg");
+    background-color: rgba(242, 242, 242, 0.8);
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    
+  }
+  .section-about-us h2 p{
+
+    color: black !important;
+  }
+  
+  .section-menu {
+    background-image: url("./logo/composition-tasty-traditional-pizza.jpg");
+    background-color: #f2f2f2;
+  }
+  
+  .section-find-us {
+    /* background-image: url("./logo/pastel-blue-vignette-concrete-textured-background.jpg"); */
+    background-color: tomato;
+  }
+  
+  #home h2 {
+    top: 15px; 
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: #de4545;
+  }
+  
+ #home p {
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+    color: #e93030;
+  }
+  
+  
+  .menu {
+    
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(233, 166, 166);
+    /* opacity: 0.85; */
+  }
+
+  #menu{
+    padding: auto !important;
+    background-color: #ca8888;
+  }
+  .menu h2 {
+    color: #333;
+  }
+  
+  .menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+  }
+  
+  .menu-item {
+    background-color:rgb(232, 226, 218);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .menu-item h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item p {
+    color: rgb(189, 113, 113);
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+    text-align:center; 
+  }
